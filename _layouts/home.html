@@ -9,7 +9,11 @@
     </div>
 
     <div class="my-6">
-      {% include projects.html %}
+      {% include hackster-io-projects.html %}
+    </div>
+
+    <div class="my-6">
+      {% include github-repositories.html %}
     </div>
 
     {% if site.topics %}
@@ -38,8 +42,10 @@
           </div>
         {% endunless %}
 
-        {% include projects.html %}
+        {% include hackster-io-projects.html %}
 
+        {% include github-repositories.html %}
+        
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}

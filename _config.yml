@@ -6,6 +6,8 @@ plugins:
   - jekyll-github-metadata
   - jemoji
 
+repository: bluetiger9/bluetiger9.github.io
+
 permalink: /:year/:month/:day/:title/
 
 defaults:
