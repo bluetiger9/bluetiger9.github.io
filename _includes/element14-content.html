@@ -1,0 +1,17 @@
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Element14 Community Content</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Some of my Road Test reviews and projects from Element14 Community</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  
+  {% for content in site.element14.content %}
+    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      {% include element14-card.html %}
+    </div>
+  {% endfor %}
+
+  <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+    &nbsp;&nbsp;&nbsp;
+    <i>
+      <a href="https://www.element14.com/community/people/bluetiger9" target="blank">For more projects, reviews and blog posts please check out my Element14 Community profile!</a>
+    </i>
+  </p>
+</div>

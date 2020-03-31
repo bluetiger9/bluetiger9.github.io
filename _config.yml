@@ -37,6 +37,38 @@ projects:
       WioLTEforArduino
     # - repo-name
 
+element14:
+  content:
+    - title: NXP Layerscape® LS1046A Freeway Board - Review
+      description: Road Test review of the NXP Layerscape® LS1046A Freeway Board
+      link: https://www.element14.com/community/roadTestReviews/3247/l/nxp-layerscape-ls1046a-freeway-board-review
+      cover_image: cover-ls1046a.png
+
+    - title: "PYNQ-Z2 Dev Board: Python Productivity for Zynq® - Review"
+      description: Road Test review of the PYNQ-Z2 Dev Board
+      link: https://www.element14.com/community/roadTestReviews/3120/l/pynq-z2-dev-board-python-productivity-for-zynq-review
+      cover_image: cover-pynq.png
+
+    - title: Azure Sphere based Secure IoT Air Quality Sensing Station
+      description: Air Quality Monitor based on the Avnet Azure Sphere MT3620 Starter Kit
+      link: https://www.element14.com/community/groups/azuresphere/blog/2019/11/30/azure-sphere-based-air-quality-monitoring
+      cover_image: cover-sphere.png
+
+    - title: AI powered CNC Painting Machine
+      description: Raspberry Pi based AI painting experiments
+      link: https://www.element14.com/community/community/design-challenges/picasso/blog/2019/06/10/ai-powered-cnc-painting-machine-blog-5-experimenting-with-lithophanes
+      cover_image: cover-picasso.png
+
+    - title: Bluetooth 5 Radio SoC EVM - Review
+      description: Road Test review of the ON Semi RSL10 Bluetooth Low Energy SoC
+      link: https://www.element14.com/community/roadTestReviews/2958/l/bluetooth-5-radio-soc-evm-review
+      cover_image: cover-rsl10.png
+
+    - title: Integrating NFC with the NXP PN7150 - Review
+      description: Road Test review of the NXP PN7150 NFC controller
+      link: https://www.element14.com/community/roadTestReviews/3054/l/integrating-nfc-with-the-nxp-pn7150-review
+      cover_image: cover-nxp-nfc.png
+
 social_media:
   # behance: your_username
   # dribbble: your_username
