@@ -21,7 +21,7 @@ hacksterio:
 
 element14:
   name: Element14 Community
-  profile_url_prefix: element14.com/community/people/
+  profile_url_prefix: https://element14.com/community/people/
   icon_svg: '<img width="20" height="20"src="assets/e14.png"></img>'
 
 instagram:
